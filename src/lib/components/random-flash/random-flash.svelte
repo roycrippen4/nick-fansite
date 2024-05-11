@@ -5,7 +5,7 @@
 	let show = false;
 
 	function randomDelay() {
-		return Math.random() * (6000 - 600) + 600;
+		return Math.random() * (600000 - 60000) + 60000;
 	}
 
 	function flashContent() {
