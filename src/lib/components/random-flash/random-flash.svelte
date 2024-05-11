@@ -3,11 +3,9 @@
 	import { meatspin } from '@images';
 
 	let show = false;
-	// let content = 'Hello World';
 
 	function randomDelay() {
-		// return Math.random() * (600000 - 60000) + 60000;
-		return Math.random() * (600000 - 60000) + 60000;
+		return Math.random() * (6000 - 600) + 600;
 	}
 
 	function flashContent() {
