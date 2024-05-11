@@ -10,9 +10,10 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			['@icons']: './src/lib/icons',
-			['@components']: './src/lib/components'
+			['@components']: './src/lib/components',
+			['@utils']: './src/lib/utils',
+			['@images']: './src/lib/images'
 		}
 	}
 };
 export default config;
-
